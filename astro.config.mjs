@@ -10,7 +10,7 @@ import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://idcpstark1992.github.io',
   output:'server',
   integrations: [mdx(), sitemap(), tailwind(), icon()],
-  adapter: netlify(),
 });
